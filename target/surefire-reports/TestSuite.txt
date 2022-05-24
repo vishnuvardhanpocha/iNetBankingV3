@@ -1,52 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 61.067 s <<< FAILURE! - in TestSuite
-loginDDT(com.iNetBanking.testCases.TC_LoginTest_DDT_002)  Time elapsed: 3.794 s  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: 
-unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=101.0.4951.54): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'CPX-6PS67VJLBCB', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4171522c98d47475ad5cbd9140d0d142, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\VISHNU~1.RED\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64813/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4171522c98d47475ad5cbd9140d0d142
-	at com.iNetBanking.testCases.TC_LoginTest_DDT_002.loginDDT(TC_LoginTest_DDT_002.java:29)
-
-loginDDT(com.iNetBanking.testCases.TC_LoginTest_DDT_002)  Time elapsed: 3.87 s  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: 
-unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=101.0.4951.54): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'CPX-6PS67VJLBCB', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4171522c98d47475ad5cbd9140d0d142, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\VISHNU~1.RED\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64813/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4171522c98d47475ad5cbd9140d0d142
-	at com.iNetBanking.testCases.TC_LoginTest_DDT_002.loginDDT(TC_LoginTest_DDT_002.java:29)
-
-loginDDT(com.iNetBanking.testCases.TC_LoginTest_DDT_002)  Time elapsed: 4.936 s  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: 
-unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=101.0.4951.54): User or Password is not valid
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'CPX-6PS67VJLBCB', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4171522c98d47475ad5cbd9140d0d142, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\VISHNU~1.RED\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64813/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4171522c98d47475ad5cbd9140d0d142
-	at com.iNetBanking.testCases.TC_LoginTest_DDT_002.loginDDT(TC_LoginTest_DDT_002.java:29)
-
-setup(com.iNetBanking.testCases.TC_AddCustomerTest_003)  Time elapsed: 15.946 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 9.642 s <<< FAILURE! - in TestSuite
+setup(com.iNetBanking.testCases.Selenium4Features)  Time elapsed: 9.233 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//p[normalize-space()='Consent']"}
-  (Session info: chrome=101.0.4951.54)
+  (Session info: chrome=101.0.4951.67)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'CPX-6PS67VJLBCB', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ca5e378707f999264c1e045f11dc8669, findElement {using=xpath, value=//p[normalize-space()='Consent']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\VISHNU~1.RED\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64966/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ca5e378707f999264c1e045f11dc8669
+Command: [c171145e956b71fe54becb7bc6319d51, findElement {using=xpath, value=//p[normalize-space()='Consent']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\windows\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:58225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58225/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c171145e956b71fe54becb7bc6319d51
 

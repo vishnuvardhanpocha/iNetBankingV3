@@ -10,10 +10,11 @@
 	<test name="BankingApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.iNetBanking.testCases.TC_LoginTest_001" />
-			<class name="com.iNetBanking.testCases.TC_LoginTest_DDT_002" />
-			<class name="com.iNetBanking.testCases.TC_AddCustomerTest_003" />
-
+			<!-- <class name="com.iNetBanking.testCases.TC_LoginTest_001" /> -->
+			<!-- <class name="com.iNetBanking.testCases.TC_LoginTest_DDT_002" /> -->
+			<!-- -class name="com.iNetBanking.testCases.TC_AddCustomerTest_003" />  -->
+			<class name="com.iNetBanking.testCases.Selenium4Features" />
+			
 		</classes>
 
 	</test>
